@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin | Web Designer & Developer</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: white;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 400px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #00d2ff;
+            padding: 5px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        h1 { font-size: 28px; margin: 5px 0; color: #00d2ff; }
+        .tagline { font-size: 16px; color: #888; margin-bottom: 25px; }
+
+        /* ऊपर वाले सेक्शन में नए स्किल्स */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 35px;
+        }
+        .skill-badge {
+            background: #00d2ff11;
+            border: 1px solid #00d2ff;
+            color: #00d2ff;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        /* लिंक्स और बटन्स */
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .btn {
+            padding: 15px;
+            border-radius: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+            font-size: 16px;
+        }
+        .btn-primary {
+            background: #00d2ff;
+            color: #0f172a;
+            box-shadow: 0 4px 15px rgba(0, 210, 255, 0.3);
+        }
+        .btn-secondary {
+            background: rgba(255,255,255,0.08);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .btn:hover { transform: translateY(-3px); }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="1.jpg" alt="Sachin" class="profile-img">
+        
+        <h1>Sachin</h1>
+        <p class="tagline">Professional Web Designer</p>
+
+        <div class="skills">
+            <span class="skill-badge">HTML/CSS Expert</span>
+            <span class="skill-badge">UI/UX Design</span>
+            <span class="skill-badge">Frontend Developer</span>
+            <span class="skill-badge">Modern Coding</span>
+            <span class="skill-badge">Digital Creator</span>
+            <span class="skill-badge">Accountancy</span>
+        </div>
+
+        <div class="links-container">
+            <a href="https://www.instagram.com/web_designer.45" class="btn btn-primary">order messages</a>
+            <a href="https://www.instagram.com/web_designer.45" class="btn btn-secondary">my Instagram account</a>
+        </div>
+    </div>
+
+</body>
+</html>
